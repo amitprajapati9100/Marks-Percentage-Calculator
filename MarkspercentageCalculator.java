@@ -48,9 +48,9 @@ public class MarkspercentageCalculator {
             result = percentCal(marks,max_marks);
             String result_formatted = String.format("%.2f", result);
             String result_CGPA = String.format("%.2f", (result/10));
-            if (result <= 100)System.out.println("The Total Percentage is : " + result_formatted + "% \n" + " and CGPA = " + result_CGPA + " \n Thank You...");
+            if (result <= 100)System.out.println("The Total Percentage is : " + result_formatted + " % \n" + " and CGPA = " + result_CGPA + " \n Thank You...");
             else {
-                System.out.println("❌ Percentage is More tha 100% Found ❌.....\n" +  "it is not Possible ❌ that Percentage is More than 100, Please Check the Marks Again carefully and Re Enter...\n" + "Thank You..." );
+                System.out.println("❌ Percentage is More tha 100 % Found ❌.....\n" +  "it is not Possible ❌ that Percentage is More than 100, Please Check the Marks Again carefully and Re Enter...\n" + "Thank You..." );
             }
 
         } catch (Exception e) {
@@ -63,3 +63,4 @@ public class MarkspercentageCalculator {
 
     }
 }
+
